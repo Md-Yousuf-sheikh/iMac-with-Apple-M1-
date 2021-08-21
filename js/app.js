@@ -57,9 +57,7 @@ function(){
     }
     else{
         document.getElementById('newtotalAmount').innerText = totalPrice;
-        document.getElementById('promoCode').style.color= 'red';
-        document.getElementById('promoCode').style.fontWeight= 'bolder';
-
+        document.getElementById('promoCode').value = ' ';
     }
     
 })
