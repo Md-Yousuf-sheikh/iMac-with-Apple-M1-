@@ -52,7 +52,8 @@ function(){
     const promoCode = document.getElementById('promoCode').value;
 
     if(promoCode == 'stevekaku'){
-        document.getElementById('newtotalAmount').innerText = totalPrice - (totalPrice * 0.2); 
+        document.getElementById('newtotalAmount').innerText = totalPrice - (totalPrice * 0.2);
+        document.getElementById('promoCode').value = ' ';
     }
     else{
         document.getElementById('newtotalAmount').innerText = totalPrice;
